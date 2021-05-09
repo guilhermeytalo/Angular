@@ -13,8 +13,8 @@ Studying using free course from [Loiane Groner](https://www.youtube.com/playlist
 
 ## Progress
 
-```
-- [ ] Basics
+
+- [x] Basics
 	- [x] HTML
 	- [x] CSS
 	- [x] Basic JS
@@ -28,7 +28,7 @@ Studying using free course from [Loiane Groner](https://www.youtube.com/playlist
 		- [x] Sass/SCSS	
 	- [x] Css Frameworks
 		- [x] Bootstrap
-	- [] Design System
+	- [ ] Design System
 		- [ ] Angular Material
 - [ ] Fundamentals 3° parties
 	- [ ] TypeScript
@@ -43,7 +43,7 @@ Studying using free course from [Loiane Groner](https://www.youtube.com/playlist
 		- [ ] Usages in Angular core libraries
 - [ ] State manegement
 	- [ ] NGXS
-	- [ ] @ngrx
+	- [ ] NGRX
 		- [ ] Entity
 		- [ ] Data	
 		- [ ] Effects
@@ -57,5 +57,5 @@ Studying using free course from [Loiane Groner](https://www.youtube.com/playlist
 	- [ ] E2E
 		- [ ] Protractor
 		- [ ] cypress
-```
+
 
