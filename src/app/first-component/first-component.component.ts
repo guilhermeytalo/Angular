@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 @Component({
   selector: 'first-component',
   template: `
-  <p>first-component</p>
+    <p>first-component</p>
   `,
 })
 
