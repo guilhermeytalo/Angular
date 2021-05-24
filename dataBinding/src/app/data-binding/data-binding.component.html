@@ -1,0 +1,101 @@
+<section>
+  <!-- <article>
+    <h3>
+      Interpolation
+    </h3>
+    <p>
+      Value rendered with interpolation:
+      {{ url }}
+    </p>
+    <p>
+      Result with a math operation in interpolation
+      {{ 1 + 1}}
+    </p>
+    <p>
+      1 + 1 is not {{ 1 + 1 + getValue() }}
+    </p>
+    <p>
+      Liking angular and the course: {{ angularCourse && getCourseLike() }}
+    </p>
+  </article>
+
+  <article>
+    <h3>Property Binding</h3>
+      interpolation
+     <img src="{{ urlImage }}">
+     property bind
+    <img [src]="urlImage" style="width: 400px; height: 400px;">
+  </article> -->
+
+  <!--  <article>
+      <h3>Class and Style binding</h3>
+      <div>
+        Selecione uma classe
+        <select #class (change)="0">
+          <option value="alert-success">Success</option>
+          <option value="alert-info">Info</option>
+          <option value="alert-warning">Alert</option>
+          <option value="alert-danger">Error</option>
+        </select>
+        <br><br>
+
+        <div class="alert {{ class.value }}">
+          Texto colorido conforme o combobox
+        </div>
+
+        <div class="alert" role="alert"
+             [class.alert-success]="class.value == 'alert-success'">
+          Success
+        </div>
+
+        <div class="alert" role="alert"
+             [class.alert-info]="class.value == 'alert-info'">
+          Info
+        </div>
+
+        <div class="alert" role="alert"
+             [class.alert-warning]="class.value == 'alert-warning'">
+          Alert
+        </div>
+
+        <div class="alert" role="alert"
+             [class.alert-danger]="class.value == 'alert-danger'">
+          Error
+        </div>
+
+
+        <div class="alert alert-danger" role="alert"
+             [style.display]="class.value == 'alert-danger' ?  'block' : 'none'">
+          Esse texto so aparece quando da erro
+        </div>
+      </div>
+
+    </article> -->
+
+  <!--  <article>
+      <h3>Event binding</h3>
+      <div>
+        <button class="btn btn-primary" (click)="event()">click me!</button>
+        <br><br>
+        <input type="text"
+               (keyup)="onKeyUp($event)"
+               (keyup.enter)="saveValue(fieldInput.value)"
+               (blur)="saveValue(fieldInput.value)"
+               #fieldInput
+        />
+
+        <p>Actual value: {{ actualValue }}</p>
+        <p>Actual value: {{ valueSaved }}</p>
+
+        <br><br>
+
+        <span (mouseover)="onMouseOverOut()"
+              (mouseout)="onMouseOverOut()"
+              [class.highLight]="isMouseOver"
+        >
+          shake mouse here
+        </span>
+      </div>
+    </article>-->
+    <app-form></app-form>
+</section>
