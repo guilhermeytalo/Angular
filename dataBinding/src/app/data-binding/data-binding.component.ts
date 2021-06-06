@@ -23,6 +23,7 @@ export class DataBindingComponent implements OnInit {
 
   courseName: string = 'Angular';
 
+  initialValue: number = 15;
 
 
   constructor() {
@@ -38,6 +39,11 @@ export class DataBindingComponent implements OnInit {
 
   getCourseLike() {
     return true;
+  }
+
+
+  onChangeValue(event) {
+    console.log(event.newValue);
   }
 
 

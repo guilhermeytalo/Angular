@@ -8,12 +8,14 @@ import {FormsModule} from '@angular/forms';
 
 import {FormModule} from './form/form.module';
 import { InputPropertieComponent } from './input-propertie/input-propertie.component';
+import { OutputPropertieComponent } from './output-propertie/output-propertie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
-    InputPropertieComponent
+    InputPropertieComponent,
+    OutputPropertieComponent
   ],
   imports: [
     BrowserModule,

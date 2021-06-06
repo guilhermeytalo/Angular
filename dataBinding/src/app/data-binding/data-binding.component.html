@@ -106,8 +106,12 @@
       Input/Output properties
     </h3>
 
-    <app-input-propertie [name]="courseName">
+    <app-input-propertie [name]="courseName"></app-input-propertie>
 
-    </app-input-propertie>
+    <app-output-propertie
+          [value]="initialValue"
+          (changedValue)="onChangeValue($event)">
+    </app-output-propertie>
+
   </article>
 </section>
