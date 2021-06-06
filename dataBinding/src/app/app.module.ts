@@ -7,11 +7,13 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 
 import {FormModule} from './form/form.module';
+import { InputPropertieComponent } from './input-propertie/input-propertie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    InputPropertieComponent
   ],
   imports: [
     BrowserModule,
