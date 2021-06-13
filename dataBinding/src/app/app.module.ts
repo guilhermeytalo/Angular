@@ -9,13 +9,15 @@ import {FormsModule} from '@angular/forms';
 import {FormModule} from './form/form.module';
 import { InputPropertieComponent } from './input-propertie/input-propertie.component';
 import { OutputPropertieComponent } from './output-propertie/output-propertie.component';
+import { LifeCicleComponent } from './life-cicle/life-cicle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
     InputPropertieComponent,
-    OutputPropertieComponent
+    OutputPropertieComponent,
+    LifeCicleComponent
   ],
   imports: [
     BrowserModule,

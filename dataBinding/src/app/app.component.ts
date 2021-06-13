@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dataBinding';
+  value: number = 5
+  deleteCycle: boolean = false;
+
+  onChangeValue(){
+    this.value++;
+  }
+
+  onDestroyValue() {
+    this.deleteCycle = true;
+  }
 }
